@@ -44,7 +44,7 @@ include_once("connect.php");
             </div>
             <!-- <div class="col-4 col-sm-4 pt-3">
                 <div class="row ms-2"> -->
-                    <div class="col-2 mt-3  border-end pt-2  text-center  ">    
+                    <div class="col-2 mt-3  pt-2  text-center  ">    
                                 <i class="fa-solid fa-phone"></i>
                                 <a href="tel:09006750" class="text-decoration-none text-dark fw-bold fs-dt">0917657835</a>
                                 
@@ -52,7 +52,7 @@ include_once("connect.php");
                    
                     <div class="col-2 mt-3 ps-4 col sm-5 ">
                       <!-- <div class="container"> -->
-                      <button type="button" class="btn btn-primary fw-bold " data-bs-toggle="modal" data-bs-target="#myModal">
+                      <button type="button" class="btn btn-primary fw-bold w-75 " data-bs-toggle="modal" data-bs-target="#myModal">
                           Đăng nhập
                       </button>
                      
