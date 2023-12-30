@@ -1,0 +1,275 @@
+
+.img-wrapper {
+    max-width: 100%;
+    width: 23rem;
+    height:14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img{
+    max-height: 100%;
+  }
+  
+  /* header */
+  .header-top-list{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+  }
+  .header-top-list a{
+    text-decoration: none;
+  }
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+   
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+      
+  }
+  .header-cart {
+    border: 2px solid rgb(13, 13, 13);
+    margin-top: 2px;
+    width: 60%;
+    border-radius: 50%;
+  }
+  
+  .header-cart i{
+    padding: 7px;
+    color: rgb(21, 21, 20);
+  }
+  .img-fluid{
+    margin-top: -5px;
+  }
+  input:focus {
+    outline: none;
+      border: none;
+      box-shadow:0 0 0 0;
+  }
+ 
+  
+
+  /* dropdown */
+  .dropbtn {
+    background-color: #ccc;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  
+  
+/* product */
+.product-item:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+}
+
+.w-40{
+  width: 40%;
+}
+
+.box-shadow{
+  box-shadow:0px 0px 10px #999999;;
+}
+
+
+
+/* TRANG SẢN PHẨM */
+.text-color{
+  color:#ccc;
+}
+/* Danh muc */
+/* .item-link:hover{
+color: rgb(255, 77, 0) !important;
+} */
+
+/* .item-list li:hover{
+  background-color: #ccc;
+} */
+.w-330{
+  width:330px;
+}
+/* SẢN PHẨM CHI TIẾT */
+.border-bottom-dotted {
+  border-bottom: 1px dotted;
+}
+.border-top-dotted {
+  border-top: 1px dotted;
+}
+
+/* LOGIN */
+.color{
+  background-color: #d3dcd6;
+  display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+}
+
+
+.caro{
+  z-index: 5;
+    margin-right: 39px!important;
+}
+
+
+
+
+/* I CSS */
+
+
+.relative{
+  position: relative;
+}
+.level_favourite{
+  position: absolute;
+  top:0;
+  left:-7px;
+  background-color: red;
+}
+.level_favourite::before{
+  position: absolute;
+  content: "";
+  display: block;
+  top:24px;
+  left: 0px;
+  border-top: 4px solid black;
+  border-left: 5px solid transparent;
+  /* filter: brightness(60%); */
+}
+
+
+/* Login form */
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+button {
+background-color: #04AA6D;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+
+button:hover {
+opacity: 0.8;
+}
+
+.cancelbtn {
+width: auto;
+padding: 10px 18px;
+background-color: #f44336;
+}
+
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+}
+
+img.avatar {
+width: 40%;
+border-radius: 50%;
+}
+
+.container {
+padding: 16px;
+}
+
+span.psw {
+float: right;
+padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {
+   display: block;
+   float: none;
+}
+.cancelbtn {
+   width: 100%;
+}
+}
+
+.caro{
+z-index: 5;
+  margin-right: 39px!important;
+}
+
+
+
+
+
+/* INDEX.CSS */
+.caro{
+  z-index: 5;
+    margin-right: 20px!important;
+}
+.overflow{
+  overflow: hidden;
+}
+
+/*PC 1024px*/
+@media (min-width:1024px)and(max-width:1370px){
+  .fs-dn{
+      font-size: 12px!important;
+  }
+  .fs-dt{
+      font-size: 14px;
+  }
+}
+/*Mobile và Tablet*/
+@media (max-width:1023px){
+
+
+}
+/*Tablet*/
+@media (min-width:740px)and (max-width:1023px){
+
+}
+/*Mobile*/
+@media(max-width:739px){
+
+}
