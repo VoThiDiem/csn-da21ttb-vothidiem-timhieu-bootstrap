@@ -1,0 +1,23 @@
+
+/*PC 1024px*/
+@media (min-width:1024px)and(max-width:1370px){
+    .fs-dn{
+        font-size: 12px!important;
+    }
+    .fs-dt{
+        font-size: 14px;
+    }
+}
+/*Mobile và Tablet*/
+@media (max-width:1023px){
+  
+
+}
+/*Tablet*/
+@media (min-width:740px)and (max-width:1023px){
+
+}
+/*Mobile*/
+@media(max-width:739px){
+
+}
