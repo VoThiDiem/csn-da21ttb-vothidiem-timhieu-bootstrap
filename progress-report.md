@@ -7,7 +7,8 @@
 - Phác thảo giao diện website. `Hoàn thành ✅`
 - Tạo mô hình thực thể kết hợp. `Hoàn thành ✅`
 - Báo cáo tiến độ với GVHD.`GVHD: Đã duyệt`
-## Tuần 2 Từ ngày 25/12/2023 đến 31/12/2023
+##  Từ ngày 25/12/2023 đến 31/12/2023
 - Hoàn chỉnh các chức năng của hệ thống.
 - Hoàn chỉnh quyển báo cáo.
 - Hoàn thành sản phẩm.
+
