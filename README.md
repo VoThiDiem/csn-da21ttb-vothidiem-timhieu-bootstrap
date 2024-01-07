@@ -1,4 +1,5 @@
 # csn-da21ttb-vothidiem-timhieu-bootstrap
+Đồ án"Tìm hiểu về Bootstrap và xây dựng ứng dụng web minh họa"
 # Người thực hiện 
 - Họ tên: Võ Thị Diểm
 - MSSV: 110121013
